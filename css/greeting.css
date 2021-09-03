@@ -1,0 +1,7 @@
+#login-form,
+#greeting,
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

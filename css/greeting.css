@@ -2,24 +2,22 @@
 #greeting,
 #clock {
   position: absolute;
-  font-size: 50px;
-  font-family: "Ubuntu", sans-serif;
 }
 
 #login-form {
   top: 35%;
-  left: 47%;
-  border: dotted;
+  left: 40%;
   width: 400px;
   height: 100px;
 }
 
 #login-form input {
-  width: 60%;
+  width: 70%;
   height: 60%;
+  margin-top: 20px;
   border: none;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
   color: white;
@@ -27,14 +25,15 @@
 
 #login-form input::placeholder {
   padding-top: 20px;
+  padding-left: 20px;
   color: white;
 }
 
 #login-form button {
-  width: 30%;
   height: 60%;
   border: none;
   background-color: rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
   font-size: 25px;
   font-family: "Ubuntu", sans-serif;
   color: white;
@@ -49,4 +48,5 @@
   font-size: 30px;
   top: 50%;
   left: 50%;
+  color: white;
 }
